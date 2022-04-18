@@ -238,14 +238,14 @@ footer a {
     }
 
     nav .menu {
-        width: 100%;
+        width: 40%;
         margin: 0;
     }
 
     nav .menu ul {
         text-align: center;
         margin: auto;
-        line-height: 60px;
+        line-height: 40px;
     }
 
     nav .menu ul li {
