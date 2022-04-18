@@ -227,30 +227,65 @@ footer a {
 /* Agar layar menyesuaikan dengan device (Responsif) */
 
 @media screen and (max-width: 991.98px){
-    .konten{
+.konten{
         width: 100%;
+    }
+
+    .medsos{
+        line-height: 0;
+    }
+
+    .container a i{
+        width: 0;
+        margin-left: 40px;
     }
     
     .logo a {
         display: block;
-        width: 100%;
+        width: 80%;
+        font-size: 25px;
+        margin: 0;
         text-align: center;
     }
 
     nav .menu {
-        width: 40%;
-        margin: 0;
+        width: 120%;
+        font-size: 12px;
     }
 
     nav .menu ul {
         text-align: center;
         margin: auto;
-        line-height: 40px;
+        line-height: 2;
     }
 
     nav .menu ul li {
         display: inline-block;
         float: none;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    h4{
+        font-size: 10px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    .deskripsi{
+        font-size: 20px;
     }
 
     section {
@@ -259,13 +294,41 @@ footer a {
 
     section img {
         display: block;
-        width: 40%;
+        width: 20%;
         height: auto;
+    }
+
+    .gbr{
+        width: 50%;
+    }
+
+    .rounded-circle{
+        width: 30%;
     }
 
     .tentang-section{
         display: block;
         width: 100%;
         height: auto;
+    }
+
+    form{
+        width: 95%;
+    }
+
+    .form-label{
+        font-size: 15px;
+    }
+
+    .teks a{
+        font-size: 15px;
+    }
+
+    .icon a i{
+        width: 3%;
+    }
+
+    footer{
+        font-size: 10px;
     }
 }
