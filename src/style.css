@@ -1,0 +1,271 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    font-family:  'Courier New', Courier, monospace;
+}
+
+.medsos{
+    padding: 5px 0;
+    background-color: rgb(140, 231, 204);
+}
+
+.container{
+    color: black;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.konten {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: dimgray;
+}
+
+.logo1 img{
+    float: left;
+    padding: 15px;
+}
+
+ img{
+     display: block;
+     margin: auto;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+    border-bottom: 1.5px solid gray;
+    border-top: 1.5px solid gray;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(121, 230, 206);
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.deskripsi{
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+h1{
+    padding: 10px 10px 10px 70px;
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: rgb(77, 75, 75);
+    width: 100%;
+    line-height: 50px;
+}
+
+h2{
+    font-family: 'comic sans ms';
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(77, 75, 75);
+    width: 100%;
+    line-height: 50px;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size:30px;
+    margin-bottom: 20px;
+    color: rgb(34, 33, 33);
+    width: 100%;
+    line-height: 50px;
+}
+
+h4 {
+    padding: 0px 0px 0px 30px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: rgb(10, 10, 10);
+}
+
+
+p{
+    padding: 10px 10px 10px 30px;
+    text-align: justify;
+    margin: 10px 0px 10px 0px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+input{
+    background: rgb(121, 230, 206);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 15px 20px 15px 20px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input:hover{
+    text-decoration: none;
+    background: rgb(176, 180, 180);
+}
+
+.tentang {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.tentang-section{
+    text-align: center;
+    margin: auto;
+    width: 30%;
+}
+
+.Submit {
+    text-align: center;
+}
+
+.teks{
+    text-align: center;
+}
+
+.icon{
+    display: block;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+a i:hover {
+    color: white;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+footer a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+
+/* Agar layar menyesuaikan dengan device (Responsif) */
+
+@media screen and (max-width: 991.98px){
+    .konten{
+        width: 100%;
+    }
+    
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 40%;
+        height: auto;
+    }
+
+    .tentang-section{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
