@@ -111,7 +111,6 @@ section{
 }
 
 h1{
-    padding: 10px 10px 10px 70px;
     font-family: 'comic sans ms';
     font-weight: 800;
     font-size: 45px;
@@ -143,7 +142,6 @@ h3 {
 }
 
 h4 {
-    padding: 0px 0px 0px 30px;
     text-align: center;
     font-size: 15px;
     font-weight: bold;
@@ -153,7 +151,8 @@ h4 {
 
 
 p{
-    padding: 10px 10px 10px 30px;
+    padding: 10px 30px 10px 30px;
+    text-indent: 30px;
     text-align: justify;
     margin: 10px 0px 10px 0px;
     font-size: 17px;
@@ -227,7 +226,7 @@ footer a {
 /* Agar layar menyesuaikan dengan device (Responsif) */
 
 @media screen and (max-width: 991.98px){
-.konten{
+    .konten{
         width: 100%;
     }
 
@@ -236,8 +235,7 @@ footer a {
     }
 
     .container a i{
-        width: 0;
-        margin-left: 40px;
+        margin-left: 30px;
     }
     
     .logo a {
@@ -249,8 +247,8 @@ footer a {
     }
 
     nav .menu {
-        width: 120%;
-        font-size: 12px;
+        width: 150%;
+        font-size: 10px;
     }
 
     nav .menu ul {
@@ -265,15 +263,16 @@ footer a {
     }
 
     h1{
-        font-size: 30px;
-    }
-
-    h3{
         font-size: 20px;
+        text-align: center;
     }
 
     h2{
         font-size: 20px;
+    }
+
+    h3{
+        font-size: 15px;
     }
 
     h4{
@@ -285,11 +284,12 @@ footer a {
     }
 
     .deskripsi{
-        font-size: 20px;
+        font-size: 15px;
+        text-align: center;
     }
 
     section {
-        display: block;
+        display: inline-block;
     }
 
     section img {
@@ -313,7 +313,7 @@ footer a {
     }
 
     form{
-        width: 95%;
+        width: 90%;
     }
 
     .form-label{
